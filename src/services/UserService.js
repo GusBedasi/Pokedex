@@ -1,4 +1,4 @@
-const User = require('../../models/User')
+const User = require('../models/User')
 
 class UserService {
   async createUser(name, email, password)   {
@@ -11,3 +11,5 @@ class UserService {
     return response
   }
 }
+
+module.exports = UserService
