@@ -1,15 +1,17 @@
 class UserController {
-  constructor({ UserService }) {
-    this.userService = UserService
+  constructor({ userService }) {
+    this.userService = userService
   }
 
-  async createUser(request, response) {
+  createUser(request, response) {
     const {
       name,
       email,
       password
-    } = request.body    
+    } = request.body   
 
-    return await this.userService.createUser(name, email, password)
+    return this.userService.createUser(name, email, password)
   }
 }
+
+module.exports = UserController
