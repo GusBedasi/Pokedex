@@ -5,8 +5,9 @@ try {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
-        useFindAndModify: false
-    }).then(() => { console.log('DATABASE CONNECTED') })
+        useFindAndModify: false,
+        serverSelectionTimeoutMS: 5000,
+    }).then(() => console.log('DATABASE CONNECTED'))
 } catch (error) {
     console.error(error)
 }
