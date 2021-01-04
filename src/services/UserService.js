@@ -1,15 +1,10 @@
-const User = require('../models/User')
+function UserService(userRespository) {
+  this.userRepository = userRespository
 
-class UserService {
-  async createUser(name, email, password)   {
-    const response = await User.create({
-      name,
-      email,
-      password
-    })
-
-    return response
+  this.createUser = (request, response) => {
+    return this.userRepository.createUser(request, response)
   }
+
 }
 
 module.exports = UserService
