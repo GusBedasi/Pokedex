@@ -2,10 +2,10 @@
 
 ### Projeto padronizado
 
-- Cobertura com [Jest](https://jestjs.io/) (ou qualquer outra ferramenta)
-- Documentação com [ApiDoc](https://apidocjs.com/) (ou qualquer outra ferramenta)
+- Cobertura com [Jest](https://jestjs.io/)
+- Documentação com [ApiDoc](https://apidocjs.com/)
 - Setup do projeto com docker
-- Variáveis de environment setadas por ambiente (não hard coded)
+- Variáveis de environment setadas por ambiente
 
 ## API de Pokemons com autenticação e rotas protegidas
 
