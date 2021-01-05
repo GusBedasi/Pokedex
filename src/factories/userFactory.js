@@ -1,7 +1,9 @@
 const UserRepository = require('../repository/userRepository')
 const UserService = require('../services/UserService')
 
-const generateInstance = () => {
+const SessionService = require('../services/SessionService')
+
+const generateUserServiceInstance = () => {
     const userService = new UserService(
         new UserRepository()
     )
@@ -9,4 +11,10 @@ const generateInstance = () => {
     return userService
 }
 
-module.exports = { generateInstance }
+const generateSessionServiceInstance = () => {
+    const sessionService = new SessionService()
+
+    return sessionService
+}
+
+module.exports = { generateUserServiceInstance, generateSessionServiceInstance }
