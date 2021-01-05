@@ -4,7 +4,7 @@
 
 - Cobertura com [Jest](https://jestjs.io/)
 - Documentação com [ApiDoc](https://apidocjs.com/)
-- Setup do projeto com docker
+- Setup do projeto com docker (sera adicionado no fim do projeto)
 - Variáveis de environment setadas por ambiente
 
 ## API de Pokemons com autenticação e rotas protegidas
