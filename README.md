@@ -37,6 +37,7 @@ A autenticação deve ser [JWT](https://jwt.io/)
 
 ### Frameworks utilizadas:
 
-- Express https://expressjs.com/
-- Mongoose https://mongoosejs.com/
-- Jest https://jestjs.io/
+- [Express](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [Jest](https://jestjs.io/)
+- [JWT](https://jwt.io/)
