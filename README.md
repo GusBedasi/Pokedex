@@ -17,9 +17,9 @@ A autenticação deve ser [JWT](https://jwt.io/)
 
 ##### Usuários
 
-- Endpoint de login (JWT)
-- Endpoint de cadastro
-- Endpoint de editar perfil
+[x] Endpoint de login (JWT)
+[x] Endpoint de cadastro
+[x] Endpoint de editar perfil
 
 ##### Pokemons
 

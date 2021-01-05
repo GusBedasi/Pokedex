@@ -14,6 +14,7 @@ routes.post('/login', sessionService.store)
 
 routes.use(authorizer)
 
+routes.put('/update/user', userService.updateUser)
 routes.get('/authenticated', (_, response) => response.send())
 
 module.exports = routes
