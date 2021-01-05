@@ -15,7 +15,7 @@ const authorizer = (request, response, next) => {
         const payload = jwt.verify(token, process.env.RSA_PRIVATE)
 
         request.userId = payload.userId
-
+        
         return next()
 
     } catch (error) {
