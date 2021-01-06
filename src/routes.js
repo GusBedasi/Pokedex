@@ -5,7 +5,7 @@ const UserFactor = require('./factories/userFactory')
 const userService = UserFactor.generateUserServiceInstance()
 const sessionService = UserFactor.generateSessionServiceInstance()
 
-const authorizer = require('./auth/auth')
+const authorizer = require('./middleware/auth')
 
 const routes = Router()
 

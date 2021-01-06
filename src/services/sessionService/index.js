@@ -3,7 +3,7 @@ require('dotenv').config()
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
-const User = require('../models/User')
+const User = require('../../models/User')
 
 function SessionService() {
     this.store = async  (request, response) => {
